@@ -1,9 +1,8 @@
-/* Apply a box model to all elements */
 * {
   box-sizing: border-box;
 }
 
-/* Set a max-width for the container */
+
 body {
   font-family: 'Dongle', sans-serif;
   color: rgb(31, 42, 75);
@@ -13,7 +12,6 @@ body {
   background-color: rgb(246, 250, 254);
 }
 
-/* Style the header */
 h1 {
   font-size: 46px;
   text-align: center;
@@ -26,7 +24,7 @@ h1 {
   justify-content: space-between;
   margin: 8px 0;
 }
-/* Style the input field */
+
 input[type="text"] {
   width: 60%;
   padding: 12px 20px;
@@ -34,7 +32,6 @@ input[type="text"] {
   border-radius: 4px;
 }
 
-/* Style the buttons */
 button {
   background-color: #4CAF50;
   color: white;
@@ -46,38 +43,33 @@ button {
   cursor: pointer;
 }
 
-/* Style the add button */
 #add-button {
   background-color: #4CAF50;
   width: 17%;
 }
 
-/* Style the remove button */
 #remove-button {
   background-color: #f2665c;
   width: 17%;
 }
 
-/* Style the error messages */
 .errors {
   font-size: 25px;
   color: rgb(172, 70, 70);
   text-align: center;
 }
 
-/* Style the list */
 #queue-list {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-/* Style the list items */
 li {
   width: 100%;
-  background-color: #ffffff;
+  background-color: #fdfdfd;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 7px;
   margin-bottom: 10px;
   font-size: 25px;
 }
