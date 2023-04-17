@@ -9,7 +9,6 @@ const removeButton = document.getElementById("remove-button");
 
 const inputError = document.getElementById("input-error");
 const queueError = document.getElementById("queue-error");
-
 const queueList = document.getElementById("queue-list");
 
 // Load the queue from local storage (if available)
@@ -37,7 +36,6 @@ function isQueueValid() {
     queueError.innerText = "Queue is empty";
     return false;
   }
-
   queueError.innerText = "";
   return true;
 }
